@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "middle-ui": "workspace:^1.0.0"
+    "middle-ui": "workspace:^1.1.0"
   }
 }
