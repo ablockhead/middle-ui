@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "vite build & esno build/buildLess"
+    "build": "vite build",
+    "buildLess": "esno build/buildLess"
   },
   "keywords": [
     "middle-ui",
