@@ -1,11 +1,24 @@
 {
   "name": "middle-ui",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
     "es",
     "lib"
+  ],
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ablockhead/middle-ui"
+  },
+  "dependencies": {
+    "@middle-ui/utils": "1.0.0"
+  },
+  "sideEffects": [
+    "**/*.css"
   ],
   "keywords": [
     "middle-ui",
