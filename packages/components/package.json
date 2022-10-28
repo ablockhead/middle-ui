@@ -1,0 +1,29 @@
+{
+  "name": "middle-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build & esno build/buildLess"
+  },
+  "keywords": [
+    "middle-ui",
+    "m-vue3--ui组件库"
+  ],
+  "publishConfig": {
+    "main": "lib/index.js",
+    "module":"es/index.js",
+    "scripts": {
+      "build": "vite build"
+    },
+    "files": [
+      "es",
+      "lib"
+    ]
+  },
+  "author": "laingxu",
+  "license": "MIT",
+  "dependencies": {
+    "@middle-ui/utils": "workspace:^1.0.0"
+  }
+}
