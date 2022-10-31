@@ -1,6 +1,6 @@
 {
   "name": "middle-ui",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "main": "lib/index.js",
   "module": "es/index.mjs",
   "files": [
