@@ -1,5 +1,12 @@
 
 
+## [1.2.0](https://github.com/ablockhead/middle-ui/compare/1.1.0...1.2.0) (2022-10-28)
+
+
+### Features
+
+* 发布组件包 ([1cc5bbc](https://github.com/ablockhead/middle-ui/commit/1cc5bbc3fc30d65aa39c84b1366ec83c82c76f53))
+
 * feat: 发布组件包 (1cc5bbc)
 
 ## 1.1.0 (2022-10-28)

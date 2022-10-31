@@ -1,30 +1,26 @@
 {
   "name": "middle-ui",
-  "version": "1.1.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.2.0",
+  "main": "index.ts",
+  "files": [
+    "es",
+    "lib"
+  ],
   "scripts": {
-    "build": "vite build",
-    "buildLess": "esno build/buildLess"
+    "build": "vite build"
   },
   "keywords": [
     "middle-ui",
-    "m-vue3--ui组件库"
+    "vue3组件库"
   ],
-  "publishConfig": {
-    "main": "lib/index.js",
-    "module":"es/index.js",
-    "scripts": {
-      "build": "vite build"
-    },
-    "files": [
-      "es",
-      "lib"
-    ]
-  },
-  "author": "laingxu",
-  "license": "MIT",
   "dependencies": {
-    "@middle-ui/utils": "workspace:^1.0.0"
-  }
+    "@middle-ui/utils": "workspace:1.0.0"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "小司",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts"
 }

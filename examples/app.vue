@@ -1,9 +1,9 @@
 <template>
     <div>启动测试
-        <MiddleButton style="width:230px" type="primary" size="mini">登录1</MiddleButton>
+        <Button style="width:230px" type="primary" size="mini">登录1</Button>
     </div>
 </template>
 <script lang="ts" setup>
-import { MiddleButton } from 'middle-ui'
+import { Button } from 'middle-ui'
 
 </script>

@@ -1,8 +1,8 @@
 {
-  "name": "middle-ui",
-  "version": "1.0.6",
+  "name": "transitpkg",
+  "version": "1.2.0",
   "main": "lib/index.js",
-  "module": "es/index.js",
+  "module": "es/index.mjs",
   "files": [
     "es",
     "lib"

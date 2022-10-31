@@ -6,7 +6,7 @@ import delpath from "../utils/delpath"
 import run from '../utils/run'
 //删除dist
 export const removeDist = () => {
-    return delpath(`${componentPath}/kitty-ui`)
+    return delpath(`${componentPath}/middle-ui`)
 }
 
 //处理样式
