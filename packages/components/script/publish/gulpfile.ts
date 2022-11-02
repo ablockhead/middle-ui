@@ -31,7 +31,7 @@ const publish = async () => {
 }
 
 export default series(
-    async () => publish()
+    // async () => publish()
 )
 
 

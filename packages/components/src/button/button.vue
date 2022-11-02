@@ -1,7 +1,6 @@
 <!-- button.vue -->
 <template>
     <button class="k-button" :class="styleClass">
-        <Icon v-if="iconFont.iconName && iconFont.position != 'right'" :name="iconFont.iconName" />
         <div class="k-button-text">
             <slot />
         </div>
@@ -16,7 +15,6 @@ export default defineComponent({
     name: 'k-button',
     props: buttonProps,
     setup(props) {
-
         const styleClass = computed(() => {
             return {
                 [`k-button--${props.type}`]: props.type,
@@ -27,19 +25,9 @@ export default defineComponent({
             }
         })
 
-        //图标
-        const iconFont = computed(() => {
-            const iconName = props.icon
-            const position = props.iconPosition
-            return {
-                iconName,
-                position
-            }
-        })
 
         return {
-            styleClass,
-            iconFont
+            styleClass
         };
     },
 });

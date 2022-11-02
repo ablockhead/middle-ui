@@ -46,9 +46,9 @@ importers:
 
   examples:
     specifiers:
-      middle-ui: workspace:^1.2.0
+      middle-ui: workspace:^1.4.0
     dependencies:
-      middle-ui: link:../packages/components
+      middle-ui: link:../packages/components/middle-ui
 
   packages/components:
     specifiers:

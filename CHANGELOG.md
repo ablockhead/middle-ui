@@ -1,5 +1,17 @@
 
 
+## [1.4.0](https://github.com/ablockhead/middle-ui/compare/1.2.0...1.4.0) (2022-10-31)
+
+
+### Features
+
+* 打包发布 ([bb1ba10](https://github.com/ablockhead/middle-ui/commit/bb1ba104681ebf8779f51b2fd0e1b6d078e35a14))
+
+
+### Bug Fixes
+
+* 修改打包入口 ([663e216](https://github.com/ablockhead/middle-ui/commit/663e216e24f2f6dda1393704b58a64f83ff76c04))
+
 ## [1.3.0](https://github.com/ablockhead/middle-ui/compare/1.2.0...1.3.0) (2022-10-31)
 
 
